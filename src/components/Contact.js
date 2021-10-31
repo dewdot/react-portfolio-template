@@ -12,9 +12,9 @@ event.preventDefault();
         </div>
         <div>
           <ul className="social-icons">
-            <li><a href="#"><i className="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i className="bi bi-twitter"></i></a></li>
-            <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a></li>
+            <li><a href="https://twitter.com/"  target="_blank" rel="noreferrer"><i className="bi bi-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/"  target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a></li>
           </ul>
         </div>
         <div className="columns">
