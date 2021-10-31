@@ -1,0 +1,52 @@
+/* Color and Background */
+.color-primary {
+  color: var(--primary);
+}
+.color-white {
+  color: #ffffff;
+}
+
+/* Font weight */
+.weight-light {
+  font-weight: 300;
+}
+/* Text alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Section width */
+.width50 {
+  width: 50%;
+}
+.width60 {
+  width: 60%;
+}
+.width70 {
+  width: 70%;
+}
+.width80 {
+  width: 80%;
+}
+.width90 {
+  width: 90%;
+}
+
+/* columns */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+
+.column {
+  flex: 1 0 350px;
+  padding: 1.4rem;
+}
+.dark1 .column {
+  background-color: var(--dark2);
+}
+
+.dark2 .column {
+  background-color: var(--dark1);
+}

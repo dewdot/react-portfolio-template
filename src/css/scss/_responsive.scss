@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .section-title h1 {
+    font-size: 4rem;
+  }
+  .intro {
+    flex-direction: row;
+  }
+  .section-left,
+  .section-right {
+    flex: 50%;
+    text-align: left;
+  }
+  .mobile-menu-icon {
+    display: none;
+  }
+  .header-nav-list {
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    gap: 2rem;
+    transform: translate(0, 0);
+    max-width: 100%;
+    flex-direction: row;
+  }
+  .header-nav-list li {
+    border-bottom: 0;
+  }
+  .header-nav-item a::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: var(--primary);
+    bottom: 0;
+    transition: width 0.3s linear;
+  }
+  .header-nav-item a:hover::before {
+    width: 100%;
+  }
+
+  /* Testimonial */
+  .testimonial {
+    flex:  0 0 80%;
+    padding: 2rem
+  }
+  /* Contact */
+  .contact-form {
+    width: 70%;
+  }
+}

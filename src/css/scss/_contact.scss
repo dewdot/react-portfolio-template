@@ -1,0 +1,44 @@
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.social-icons a {
+  color: var(--primary);
+  padding: 0.8rem;
+  border: 2px solid var(--line-color);
+  border-radius: 12px;
+}
+.social-icons a:hover {
+  color: #ffffff;
+  background-color: var(--primary);
+  transition: all 0.3s ease;
+}
+.contact-box {
+  text-align: center;
+}
+.contact-box h3,
+.contact-box h4 {
+  color: #ffffff;
+}
+.contact-box .icon {
+  color: var(--primary);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.contact-box p:last-child{
+  margin: 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem 0;
+  width: 100%;
+}
+.contact-form button {
+  align-self: flex-start;
+}

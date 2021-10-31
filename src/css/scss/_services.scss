@@ -1,0 +1,38 @@
+.service {
+  position: relative;
+  z-index: 1;
+}
+.service:hover {
+  color: #ffffff;
+}
+.service::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: var(--primary);
+  transition: all 0.4s ease;
+}
+.service:hover::before {
+  width: 100%;
+}
+.service h2,
+.service h3,
+.service h4 {
+  color: #ffffff;
+}
+.service-content {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.service-content .service-icon {
+  font-size: 3rem;
+  color: var(--primary);
+  margin: 1rem 0;
+}
+.service:hover .service-icon {
+  color: var(--dark1);
+}

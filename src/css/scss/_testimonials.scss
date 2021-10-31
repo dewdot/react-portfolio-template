@@ -1,0 +1,35 @@
+.testimonials {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials .arrow-icon {
+  color: var(--primary);
+  font-size: 3rem;
+  cursor: pointer;
+}
+.testimonial {
+  flex: 0 0 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  padding: 1rem;
+}
+.testimonial h3 {
+  font-weight: 300;
+  margin: 0;
+  color: var(--primary);
+}
+.testimonial .position {
+  margin-bottom: 1rem;
+}
+.dark1 .testimonial {
+  background-color: var(--dark2);
+}
+.dark2 .testimonial {
+  background-color: var(--dark1);
+}

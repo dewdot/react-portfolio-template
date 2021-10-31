@@ -1,0 +1,44 @@
+.portfolio-category ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.portfolio-category ul li {
+  position: relative;
+  cursor: pointer;
+  transition:  all 0.3s ease;
+}
+.portfolio-category ul li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--primary);
+  transition: all 0.3s ease;
+}
+.portfolio-category ul li:hover::before,
+.portfolio-category .active::before {
+  width: 100%;
+}
+.portfolio-category .active,
+.portfolio-category ul li:hover {
+  color: #ffffff;
+}
+
+.portfolio-items {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.portfolio-item {
+  flex: 1 0 300px;
+  border-radius: 6px;
+  transition: all 1s ease;
+}
