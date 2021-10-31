@@ -13,7 +13,7 @@ const About = () => {
           <div className="section-right">
             <section >
               <h2 className="weight-light">Hi, I'm <span className="color-primary">Ravi Shekhar</span></h2>
-              <p>I'm a full stack developer with over 8 years of experience. I code and create stylish, modern websites, web services, mobile apps and online stores. My passion is to design digital user experiences through meaningful interactions.</p>
+              <p>I'm a full stack developer with over 6 years of experience. I code and create stylish, modern websites, web services, mobile apps and online stores. My passion is to design digital user experiences through meaningful interactions.</p>
             </section>
             <hr />
             <section>
