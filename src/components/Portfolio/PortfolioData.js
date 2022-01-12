@@ -29,7 +29,7 @@ export const PortfolioDesign = [
   {
     id: 6,
     title: "Dancing Mummies",
-    img: "https://cdn.dribbble.com/users/617230/screenshots/16747559/media/6195cb8918aa52e37d289131d16b112a.png"
+    img: "https://cdn.dribbble.com/users/44323/screenshots/17251507/media/205968ead9ff0905c211fe6b487c3569.png"
   }
 ];
 export const PortfolioMobile = [
