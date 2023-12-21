@@ -9,7 +9,7 @@ const Header = () => {
     <header id="header" className="dark1">
       <div className="container">
         <div className="header-container">
-          <div className="logo"><a href="#intro">dewdot</a>.</div>
+          <div className="logo"><a href="#intro">Dev5</a>.</div>
           <div className="header-nav">
             <div className={"mobile-menu-icon " + (menuOpen ? "active-mobile-menu" : "")} onClick={() => setMenuOpen(!menuOpen)}>
               <span className="mobile-menu-line"></span>

@@ -4,7 +4,7 @@ const Footer = () => {
     <div id="footer" className="dark1">
       <div className="container">
         <div className="footer-container">
-          &copy; copyright dewdot.com {year}
+          &copy; copyright Dev5.dev {year}
         </div>
       </div>
     </div>

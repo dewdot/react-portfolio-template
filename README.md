@@ -1,11 +1,11 @@
-# Personal Portfolio ReactJS Template
+# Folio - Personal Portfolio ReactJS Template
 It is a creative, minimal and clean design. It is suitable for Designer, Developer, Specialist, Content Writer, Instructor, Photographer, Freelancer or others expert who Show their professional projects and services. It is 100% responsive and very fast.
 
 
 ### Important Links
 * [Live Demo](https://react-portfolio-template-orpin.vercel.app/)
-* Developed By: [DewCodes.com](https://dewcodes.com/)
-
+* Developed By: [Dev5](https://dev5.dev/)
+* Theme Page: https://dev5.dev/theme/folio
 
 ## Features
 * Fully responsive
@@ -25,5 +25,6 @@ It is a creative, minimal and clean design. It is suitable for Designer, Develop
 
 
 ## Contact Developer:
+* https://dev5.dev/contact
 * You can mail me: ravi.9793@gmail.com
 * You can WhatsApp me: +91-9122574715
